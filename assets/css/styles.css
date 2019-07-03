@@ -33,7 +33,7 @@ h3{
 h4 {
     font-family: 'Rancho', cursive;
     font-size: 2em;
-    color: #ecf002;
+    color: #ff9a04;
 }
 
 p {
@@ -66,7 +66,7 @@ main {
 
 .container {
     display: flex;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .flexColumn {
