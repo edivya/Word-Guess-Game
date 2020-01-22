@@ -13,4 +13,5 @@ If the user guesses the correct city name before remaining guesses equal zero, t
 If the user does not guess the correct city name within the allocated number of guesses, then the game resets.
 
 ## Tools
-- Html
+- HTML
+- CSS
