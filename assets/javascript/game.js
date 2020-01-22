@@ -48,12 +48,12 @@ $(document).ready(function() {
 
   // Game Functions
   // Check if letter is in word & process
-  function checkForLetter(letter) {
-    var foundLetter = false;
-    var correctSound = document.createElement("audio");
-    var incorrectSound = document.createElement("audio");
-    correctSound.setAttribute("src", "assets/sounds/stairs.mp3");
-    incorrectSound.setAttribute("src", "assets/sounds/croak.mp3");
+  // function checkForLetter(letter) {
+  //   var foundLetter = false;
+  //   var correctSound = document.createElement("audio");
+  //   var incorrectSound = document.createElement("audio");
+  //   correctSound.setAttribute("src", "assets/sounds/stairs.mp3");
+  //   incorrectSound.setAttribute("src", "assets/sounds/croak.mp3");
 
     // Search string for letter
     for (var i = 0, j = wordToMatch.length; i < j; i++) {
