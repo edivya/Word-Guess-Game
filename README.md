@@ -13,9 +13,12 @@ If the user guesses the correct city name before remaining guesses equal zero, t
 If the user does not guess the correct city name within the allocated number of guesses, then the game resets.
 
 ## Tools
+
 - HTML
 - CSS
 - JAVASCRIPT
 - BOOTSTRAP
 
 ## Screenshot
+
+![Word-Guess-Game](https://github.com/edivya/Word-Guess-Game/blob/master/assets/images/Word%20Guess%20Game.png)
