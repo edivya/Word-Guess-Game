@@ -1,104 +1,15 @@
 body {
-    background-image: url("../images/game1.png");
+  background-image: url(../images/BlackMarble.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
 }
-h1 {
-    font-family: 'Impact, Charcoal, sans-serif';
-    font-size: 3.75em;
-    text-align: center;
-    color: #f50101;
-}
-
-h2 {
-    font-family: 'Titan One', cursive;
-    font-size: 2.5em;
-    color: #fff;
-    text-shadow:
-    -3px -3px 0 #EF8E34,
-    3px -3px 0 rgb(250, 2, 238),
-    -3px 3px 0 #EF8E34,
-    3px 3px 0 rgb(69, 4, 248);
-    text-align: center;
-    margin-top: -65px;
-    margin-right: -200px;
-    transform: rotate(-10deg);
-}
-
-h3{
-    font-family: 'Bangers', cursive;
-    font-size: 2.5em;
-    text-align: center;
-    color: #29f50e;
-}
-
-h4 {
-    font-family: 'Rancho', cursive;
-    font-size: 2em;
-    color: #ff9a04;
-}
-
-p {
-    font-family: 'Gaegu', cursive;
-    font-size: 1.75em;
-    text-align: center;
-    margin-top: -55px;
-} 
-
-#guessedLetters {
-    color: rgb(252, 10, 159);
-}
-
-#pressPlay {
-    color: #38153f;
-    margin-top: 0;
-    margin-bottom: -40px;
-}
-
-#answerWord {
-    letter-spacing: .25em;
-    margin-top: 0;
-    color: #d0833b;
-}
-
-main {
-    width: 80%;
-    margin: 0 auto;
-}
-
 .container {
-    display: flex;
-    background-color: rgba(255, 255, 255, 1);
+  margin: auto;
+  text-align: center;
 }
-
-.flexColumn {
-    flex-direction: column;
+#currentWord {
+  letter-spacing: 10px;
 }
-
-.middle {
-    flex: 1;
-    order: 2;
-    padding: 20px;
-    border-left: 1px solid #777777;
-    border-right: 1px solid #777777;
-}
-
-#giphy-embed {
-    width: 100%;
-    height: 100%;
-}
-
-.side {
-    width: 20%;
-    padding: 20px;
-}
-.left {
-    order: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.right{
-    order: 3;
-    overflow-wrap: break-word;
-}
-
